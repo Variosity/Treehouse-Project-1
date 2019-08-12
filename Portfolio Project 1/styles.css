@@ -194,6 +194,23 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
+  .experience-img {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 9px dotted white;
+    transition: all .5s;
+  }
+  .experience-img:hover {
+    transform: scale(1.2) rotate(-150deg);
+    border: purple;
+  }
+  .expheader-color {
+    color: pink;
+  }
+  .expbody-color{
+    color: purple;
+  }
 }
 
